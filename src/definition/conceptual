@@ -1,0 +1,95 @@
+Answer these below Questions:
+
+
+
+
+What jdk contains or composed of and define each components?
+
+What is IDE?
+Integrated Development Environment.It enables users to write and debug java programs.
+
+What are the IDEs available in the market to support java?
+Eclipse, intelliJ
+
+Explain the entire java life cycle.
+When we first write a source code using notepad or eclipse. It needs to be converted to machine language (byte code) using javac compiler.
+Byte code is in the form of .class. The class file then loads into the JVM using java loader . the JVM then send all the information to the operating system which shows you the output 
+
+what is class?
+It is the section where we declare methods, constructor and fields.
+
+What is object?
+object refers to an actual instance of a class.Every object must belong to a class.
+
+What is the entry point of an application?
+Main function is the entry point of an application.
+
+Why main is static?
+Main is static so that Java virtual Machine can call it without creating any instance of class which contains main method.
+
+What is the difference between an Interface and Abstract class?
+Java interface are abstract and cannot have implementation. Abstract class can have instance  methods that can declare default behavior.
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+what is Access Specifier?
+Access specifier is a defining code element that can determine which elements of a program are allowed to access a specific variable 
+
+What is OOP ? Define each feature of java OOP.
+OOP stands for object oriented programming.
+1.Abstraction is implementation hiding.
+2.Encapsulation is Data hiding. .
+3.Inheritance allows a class to use the properties and methods of another class.
+4.Polymorphism allows one interface to be used for a general class of  actions. Method overriding, method overloading.
+
+What is API? Name list of API that you have used so far.
+API stands application programming interface.
+
+Does java support multiple inheritance?
+No.Java does not support multiple inheritance. 
+
+What is method overloading and when it happens?
+Method Overloading is a feature that allows a class to have two or more methods having same name.
+
+What is method overriding and when it happens?
+Declaring a method in subclass which is already present in parent class is known as method overriding.
+
+Explain exceptions in java and how to handle it.
+
+What is static keyword in java? How it has been used in variables and methods ?
+Static keyword is like any other keyword  which can be applied to Java method , nested class or member variable inside a class.
+Static variable in Java belong to whole Class than individual Object. That means if Class A has a static int variable counter and 
+A has two instance a1 and a2 both will have a static variable counter whose value would be always same. 
+
+What is final and how it has been used variables and methods?
+Final keyword is used in several different contexts to define an entity which later cannot later be changed. 
+A final variable can only be initialized once, either via an initializer or an assignment statement.
+
+What is final, finally and finalize?
+# Final is used to mark a variable as unchangeable.
+# Finally is used in a statement to execute code always.
+# Finalize is called when an object is garbage collected.
+
+What is a constructor ?
+A constructor is a bit of code that allows to create object in class.
+
+What is "this" keyword in java ?
+"this" keyword is a reference to the current object. It is used to refer any member of the current object from within an instance method or 
+a constructor
+
+What is JVM stand for ?
+It stands for JAva Virtual Machine.
+
+What version of java are you using?
+Java "8"
+What is JAR stand for ?
+JAR stands for "Java ARchive". 
+
+What is compile time and run time?
+Compile time refers to  the operations performed by a compiler.
+Runtime is the time during which a program is running, in contrast to other phases of a program's life cycle.
+
+What is heap?
+When a Java program started Java Virtual Machine gets some memory from Operating System. 
+Java Virtual Machine or JVM uses this memory for all its need and part of this memory is call java heap memory.
+
+How java manage it's memory?
